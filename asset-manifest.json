@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/iforecast/static/css/main.b29fb2fe.css",
+    "main.js": "/iforecast/static/js/main.4be4ebac.js",
+    "static/js/27.bfcdabbd.chunk.js": "/iforecast/static/js/27.bfcdabbd.chunk.js",
+    "static/media/bg-signIn.png": "/iforecast/static/media/bg-signIn.750bc977296ceb5ec489.png",
+    "static/media/bg.png": "/iforecast/static/media/bg.31a9884b7a661c2a9eda.png",
+    "static/media/axios.cjs": "/iforecast/static/media/axios.cbe1b8033b90ae4c8151.cjs",
+    "static/media/icon-calendar.svg": "/iforecast/static/media/icon-calendar.b483f57d3d787763b229.svg",
+    "static/media/excel-icon.svg": "/iforecast/static/media/excel-icon.6592cfb2f90f477912dc.svg",
+    "index.html": "/iforecast/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.b29fb2fe.css",
+    "static/js/main.4be4ebac.js"
+  ]
+}
