@@ -1,0 +1,44 @@
+
+.DateRangePickerInput__withBorder {
+	border-radius: 10px;
+	padding: 4px;
+	display: flex;
+	align-items: center;
+}
+
+.DateRangePicker_picker {
+	z-index: 10;
+	border-radius: 16px;
+}
+.DateInput {
+	width: 100px;
+}
+.DateInput_input {
+	font-weight: 400;
+	font-size: 14px;
+	padding: 8px 9px;
+}
+.DateRangePickerInput_arrow {
+	margin-left: 15px;
+	padding: 5px 10px;
+	border-left: 1px solid #D7D7D7;
+	order: 1;
+	background: url(../../../../../assets/images/icon-calendar.svg) no-repeat center;
+}
+.DateRangePickerInput_arrow_svg {
+	opacity: 0;
+}
+.DayPicker__withBorder {
+	border-radius: 16px;
+}
+.CalendarDay__blocked_out_of_range,
+.CalendarDay__default {
+	border: none;
+}
+.CalendarMonth_caption {
+	font-size: 1.3rem;
+
+}
+.CalendarDay {
+	font-size: 1.2rem;
+}

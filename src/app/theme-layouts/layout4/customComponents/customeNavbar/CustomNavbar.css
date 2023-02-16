@@ -1,0 +1,37 @@
+
+
+.customNavbar {
+	background: #344154;
+	box-shadow: 0px 4px 20px rgba(1, 25, 72, 0.1);
+	border-radius: 20px;
+	margin: 20px;
+}
+.logoWrap {
+	background: linear-gradient(0, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+	filter: drop-shadow(0px 24px 70px rgba(37, 74, 86, 0.19));
+	border-radius: 20px;
+	padding: 45px;
+	margin-bottom: 300px;
+}
+@media (max-width: 1026px) {
+	.customNavbar {
+		margin: 0 20px;
+		position: fixed;
+		z-index: 20; 
+		bottom: 10px;
+		right: 0;
+		left: 0;
+		display: flex;
+		justify-content: center;
+	}
+	.logoWrap {
+		display: none;
+	}
+	.nav {
+		display: flex;
+		padding: 0;
+	}
+	.fuse-list-item {
+		
+	}
+}

@@ -1,0 +1,57 @@
+
+.signInPage {
+	height: 100vh;
+	background: url(../../../../public/assets/images/pages/signInPage/bg-signIn.png) no-repeat center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	overflow-y: scroll;
+	position: absolute;
+	right: 0;
+	left: 0;
+}
+.signInPage__inner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.signInPage__logo {
+	margin: 84px auto;
+}
+.form-wrap {
+	background: rgba(255, 255, 255, 0.1);
+	box-shadow: 0px 24px 70px rgba(38, 61, 54, 0.1);
+	border-radius: 10px;
+	padding: 20px;
+	margin-bottom: 60px;
+}
+.form-inner {
+	background: white;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 455px;
+	height: 415px;
+}
+.support__img {
+	width: 350px;
+}
+
+@media (max-width: 650px) {
+	.signInPage__logo {
+		margin: 40px auto;
+		width: 300px;
+	}
+	.form-inner {
+		width: 100%;
+	}
+	.support__title--mobile {
+		font-size: 18px;
+		margin-bottom: 5px;
+	}
+	.support__img {
+		width: 250px;
+	}
+}

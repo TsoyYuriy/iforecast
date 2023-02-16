@@ -1,0 +1,22 @@
+
+.SingleDatePickerInput__withBorder {
+	border-radius: 10px;
+	padding: 4px;
+	display: flex;
+	align-items: center;
+}
+
+.SingleDatePicker_picker {
+	z-index: 10;
+}
+.SingleDatePickerInput_calendarIcon {
+	order: 2;
+	padding-left: 15px;
+	border-left: 1px solid #D7D7D7;
+	background: url(../../../../../assets/images/icon-calendar.svg) no-repeat center;
+	cursor: default;
+}
+
+.SingleDatePickerInput_calendarIcon_svg {
+	opacity: 0;
+}

@@ -1,0 +1,15 @@
+
+.container__bg {
+	background: url(../../../assets//images/bg.png) no-repeat center;
+	background-size: cover;
+}
+.DateInput_input {
+	cursor: pointer;
+}
+
+/* ===MEDIA=== */
+@media (max-width: 1026px) {
+	.main {
+		padding-bottom: 120px;
+	}
+}

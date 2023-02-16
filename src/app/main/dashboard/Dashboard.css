@@ -1,0 +1,182 @@
+
+.dashboard-wrap {
+	padding-right: 20px;
+}
+.dashboard {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 40px;
+}
+.dashboard__left {
+	border: 1px;
+	background: white;
+	box-shadow: 0px 24px 70px rgba(37, 74, 86, 0.19);
+	border-radius: 20px;
+	padding: 30px;
+}
+.dashboard__title {
+	margin-bottom: 26px;
+	font-size: 28px;
+	font-weight: 600;
+}
+.dashboard__left-header {
+	margin-bottom: 41px;
+}
+.dashboard__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+}
+.dashboard__left-btn {
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 30px;
+	color: #FFFFFF;
+	background: #79C76F url(../../../../public/assets/customImages/excel-icon.svg) no-repeat 13% center;
+	border-radius: 100px;
+	padding: 14px 24px 14px 48px;
+}
+.dashboard__left-info {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.line-top {
+	margin-top: 42px;
+}
+.diagramm__title {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	margin-bottom: 15px;
+}
+
+
+.dashboard__right {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.dashboard__right-top {
+	background: white;
+	border-radius: 20px;
+	margin-bottom: 40px;
+	padding: 30px;
+	flex-grow: 1;
+}
+.dashboard__right-top h2 {
+	font-weight: 600;
+	font-size: 22px;
+	padding-bottom: 16px;
+	border-bottom: 1px dashed#E88532;
+	margin-bottom: 16px;
+}
+.right-top__text {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.data {
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 36px;
+}
+
+.dashboard__right-bottom {
+	background: white;
+	border-radius: 20px;
+	padding: 40px 10px;
+	flex-grow: 1;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	gap: 15px;
+}
+.dashboard__right-row {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 15px;
+	margin-bottom: 15px;
+}
+.dashboard__right-col {
+	display: flex;
+	align-items: center;
+	background: rgba(123, 216, 241, 0.08);
+	border: 1px solid #F5F5F5;
+	border-radius: 20px;
+	padding-left: 15px;
+}
+.right-col__img {
+	border-right: 2px dashed#E88532;
+	padding-right: 15px;
+	margin-right: 21px;
+}
+.loading {
+	text-align: center;
+	height: 200px
+}
+.box {
+	width: 100%;
+	height: 30px;
+	font-size: 18px;
+	background-color: rgba(123, 216, 241, 0.08);
+	border-radius: 5px;
+}
+.DateRangePicker_picker {
+	z-index: 15;
+}
+
+/* ===MEDIA=== */
+@media (max-width: 1026px) {
+	.dashboard-wrap {
+		padding: 0 20px;
+	}
+	.dashboard {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.DateRangePicker_picker {
+		left: -100px;
+	}
+}
+
+@media (max-width: 650px) {
+	.dashboard__left {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.dashboard-wrap {
+		padding-bottom: 240px;
+	}
+	.dashboard__title {
+		font-size: 22px;
+	}
+	.diagramm__title {
+		font-size: 18px;
+	}
+	.dashboard__left-header {
+		margin-bottom: 21px;
+	}
+	.dashboard__left-info {
+		flex-direction: column;
+
+	}
+	.dashboard__text--mobile {
+		margin-bottom: 12px;
+	}
+	.dashboard__right-top h2 {
+		font-size: 18px;
+	}
+	.dashboard__right-bottom {
+		grid-template-columns: 1fr;
+	}
+	.dashboard__left-btn {
+		margin-top: 12px;
+	}
+	.data {
+		font-size: 18px;
+	}
+	.dashboard__right-col {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
